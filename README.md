@@ -11,7 +11,7 @@ curl -o nerva.zip https://getnerva.org/content/binaries/nerva-v0.1.6.8_linux-x64
 # START MINING
 cd nerva
 
-screen ./nervad --start-mining <your-address> --mining-threads <number-of-threads>
+screen ./nervad --start-mining *your-address* --mining-threads *number-of-threads*
   
 (ie: screen ./nervad --start-mining NV33iFh4fZd6e8WU91Lebj1MFWhdz5zV8hpxfbWxYjtFZr9Zq4rymSS7dUcovWzjxuLCJBBZn2PHbZZsv5HFMkff1XpuVd1bS --mining-threads 6)
 
